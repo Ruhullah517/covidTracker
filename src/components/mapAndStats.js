@@ -17,7 +17,7 @@ function MapAndStats() {
         method: 'GET',
         url: `https://covid-193.p.rapidapi.com/statistics?country=${selectedCountry}`,
         headers: {
-          'X-RapidAPI-Key': 'Your API Key',
+          'X-RapidAPI-Key': '0829be0c7fmsha70e32594282bfep1f766fjsnab0d836473e2',
           'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
         }
       };
